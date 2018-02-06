@@ -12,15 +12,15 @@ Download this library and add the folder along with the sub-folders to your Matl
 
 ## Function Descriptions
 
-'analytical_amp' : Computes the analytical amplitude of the signals 
-'cont_filt' : Performs high, low, band-pass or band-stop filtering using forward-backward 6th order Butterworth filter
-'cont_kwd' : Loads a kwd file into the continuous data structure
-'cs_simple' : Selects subset of channels
-'grab_data3': Import_data helper function
-'import_data' : Imports a list of chosen RHD files into a continuous structure
-'my_Decimate' : Decimates signals
-'read_Intan_RHD2000_file' : read a single RHD file and return a continuous structure
-'time_select' : Selects a sub-set of data by on a time window
+`analytical_amp` : Computes the analytical amplitude of the signals 
+`cont_filt` : Performs high, low, band-pass or band-stop filtering using forward-backward 6th order Butterworth filter
+`cont_kwd` : Loads a kwd file into the continuous data structure
+`cs_simple` : Selects subset of channels
+`grab_data3`: Import_data helper function
+`import_data` : Imports a list of chosen RHD files into a continuous structure
+`my_Decimate` : Decimates signals
+`read_Intan_RHD2000_file` : read a single RHD file and return a continuous structure
+`time_select` : Selects a sub-set of data by on a time window
 
 
 
