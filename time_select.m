@@ -26,6 +26,10 @@ for i =1:n
     if isfield(X,'error')
         X(i).error = X(i).error(:,a:b);
     end
+    
+    if isfield(X,'gtime')
+        X(i).gtime = X(i).gtime(a:b);
+    end
 end
 
 end
