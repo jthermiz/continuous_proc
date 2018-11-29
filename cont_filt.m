@@ -6,7 +6,7 @@ function A = cont_filt(A, cfg)
 
 range = cfg.range;
 ny = A.fs/2;
-order = 3;
+order = 2;
 
 %design filter
 if cfg.range(1) == 0

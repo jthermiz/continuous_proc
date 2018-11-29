@@ -1,4 +1,4 @@
-function A = time_select_inspect(A)
+function [A,toi] = time_select_inspect(A)
 %plots time series can requires user input to truncate beginning and end
 
 plot(A.time,A.adc)
@@ -10,3 +10,5 @@ if and(isnumeric(st),isnumeric(ed))
 else
     disp('Keeping all time records');
 end
+
+toi = [st,ed];
